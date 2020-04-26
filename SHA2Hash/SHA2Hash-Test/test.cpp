@@ -1,5 +1,4 @@
 #include "pch.h"
-#include "../SHA2/Crypt.h"
 
 Crypt hash = Crypt();
 
@@ -29,7 +28,7 @@ TEST(SHA224, LongMessage)
 #pragma endregion
 
 #pragma region SHA256
-TEST(SHA256, NoInput) 
+TEST(SHA256, NoInput)
 {
 	EXPECT_EQ("e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", hash.SHA_256(""));
 }

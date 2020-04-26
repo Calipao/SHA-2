@@ -1,6 +1,14 @@
 #pragma once
 
-#include "pch.h"
+#define DEBUG
+
+#include <iostream>
+#include <sstream>
+#include <string>
+#include <bitset>
+#include <vector>
+#include <iomanip>
+#include <cstring>
 
 /*
 Pseudo code taken from https://en.wikipedia.org/wiki/SHA-2.
